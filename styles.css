@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans;
+    margin-left: 20px;
+    background: #f9fafc;
+    margin-top: 15px;
+    height: 100px;
+}
+
+
+.links{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+a{  
+    text-decoration: none;
+    color: #69696;
+    padding: 5px;
+   
+}
+
+
+
+.para{
+    border-left: 5px solid lightgrey;
+    padding-left: 10px; 
+}
+
+.button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    height: 30px;
+    text-align: center;
+}
+
+.scrollbut, .hire{
+    color: white;
+}
+
+
+
+@media only screen and (min-width:768px)
+{
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    nav{
+        display: flex;
+    }
+
+    .links{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .para{
+        width: 50%;
+        
+    }
+    
+    .scroll{
+         width: 10%;
+         position: relative;
+         top: 18em;
+         left: 45%;
+        
+    }
+
+    .circles{
+        position: relative;
+        left: 50em;
+        bottom: 10em;
+        width: 40%;
+        
+    }
+    
+    .bigcircle{
+        background-color:rgba(247, 136, 167, 0.6);
+        border-radius: 50%;
+        height: 340px;
+        width: 340px;
+        position: absolute;
+        
+    }
+    
+    .mediumcircle{
+        background-color:  rgba(247, 193, 162, 0.7);
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        left: 46%;
+        top: 11em;
+        z-index: 10;
+        
+        
+    }
+    
+    .smallcircle{
+        background-color:  rgba(207, 130, 213, 0.6); 
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        left: 55%;
+        top: 3em;
+    }
+
+    
+}
